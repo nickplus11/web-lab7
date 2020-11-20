@@ -1,0 +1,89 @@
+html {
+    background: rgb(44, 45, 47);
+}
+
+.chat-container {
+    position: relative;
+    margin: 50px auto;
+    width: 50%;
+    height: 680px;
+    border: solid white 1px;
+    background: rgb(25, 25, 25);
+    border-radius: 10px;
+}
+
+.show-messages-window {
+    height: 640px;
+    border-bottom: solid white 1px;
+    overflow: auto;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.type-message-window {
+/ / border: solid red 1 px;
+    position: relative;
+    margin: auto;
+    border-bottom-radius: 10px;
+}
+
+.right-mes {
+    margin: 8px;
+    width: 51%;
+    background: #bfbeff;
+    border-radius: 10px;
+    display: block;
+    position: relative;
+    float: right;
+    padding: 6px 6px 0px 5px;
+}
+
+.left-mes {
+    margin: 8px;
+    width: 51%;
+    background: #bfbeff;
+    border-radius: 10px;
+    display: block;
+    position: relative;
+    float: left;
+    padding: 6px 6px 0px 5px;
+}
+
+.right-mes p {
+    margin: 0 10px 5px;
+}
+
+.left-mes p {
+    margin: 0 10px 5px;
+}
+
+input {
+    width: 97%;
+    background: rgb(44, 45, 47);
+    display: block;
+    position: relative;
+    margin: 8px auto auto;
+    color: white;
+}
+
+.delete {
+    width: 16px;
+    height: 16px;
+/ / border: solid red 1 px;
+    position: relative;
+    left: 94%;
+    top: 2px;
+    z-index: 1;
+    margin-bottom: 8px;
+}
+
+.delete img:hover {
+    cursor: pointer;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
+}
